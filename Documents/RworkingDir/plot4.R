@@ -14,7 +14,7 @@
         datau <- cbind(pa, datau)
 
 ## open png device
-        png(file = "plo4.png")
+        png(file = "plot4.png")
 ## make multiple plot graph plot4
         par(mfrow = c(2,2))
         with(datau, plot(pa, Global_active_power, type = "l", 
